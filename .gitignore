@@ -1,0 +1,12 @@
+# Cartelle e file generati automaticamente da Unity che non servono su GitHub
+/Library/
+/Temp/
+/Logs/
+/Obj/
+/Build/
+/Builds/
+/UserSettings/
+
+# File di sistema inutili
+.DS_Store
+Thumbs.db
