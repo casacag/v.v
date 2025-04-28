@@ -108,6 +108,7 @@
     <Compile Include="Assets\script\SecondaryMissionManager.cs" />
     <Compile Include="Assets\script\EntityBehavior.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\ScriptProvaGitHub.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
