@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Repository\\v.v\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81151BE9-E385-10A4-4FE5-E00D55F23266}|Assembly-CSharp.csproj|e:\\repository\\v.v\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81151BE9-E385-10A4-4FE5-E00D55F23266}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81151BE9-E385-10A4-4FE5-E00D55F23266}|Assembly-CSharp.csproj|e:\\repository\\v.v\\assets\\script\\entitybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81151BE9-E385-10A4-4FE5-E00D55F23266}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\entitybehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "E:\\Repository\\v.v\\Assets\\script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\GameManager.cs",
+              "ToolTip": "E:\\Repository\\v.v\\Assets\\script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\script\\GameManager.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T13:20:29.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EntityBehavior.cs",
+              "DocumentMoniker": "E:\\Repository\\v.v\\Assets\\script\\EntityBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\EntityBehavior.cs",
+              "ToolTip": "E:\\Repository\\v.v\\Assets\\script\\EntityBehavior.cs",
+              "RelativeToolTip": "Assets\\script\\EntityBehavior.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T08:01:06.145Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

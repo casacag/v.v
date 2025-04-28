@@ -34,6 +34,11 @@ public class GameManager : MonoBehaviour
 
     private ThirdPersonController thirdPersonController; // Riferimento al controller del player
 
+
+    //gestione delle monete
+    [Header("Manager Monete")]
+    public int startinCoinCount =0;
+
     void Start()
     {
         // Se le liste non sono assegnate manualmente, troviamo le entità tramite tag
