@@ -10,6 +10,7 @@ TagManager:
   - Vizio
   - "Virt\xF9"
   - SecondaryMission
+  - Coin
   layers:
   - Default
   - TransparentFX

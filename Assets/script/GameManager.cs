@@ -1,7 +1,8 @@
+using StarterAssets;
 using System.Collections.Generic;
+using TMPro; // Assicurati di includere il namespace del ThirdPersonController
 using UnityEngine;
 using UnityEngine.UI;
-using StarterAssets; // Assicurati di includere il namespace del ThirdPersonController
 
 public class GameManager : MonoBehaviour
 {
@@ -37,7 +38,11 @@ public class GameManager : MonoBehaviour
 
     //gestione delle monete
     [Header("Manager Monete")]
-    public int startinCoinCount =0;
+    public int startingCoinCount = 0;
+    public int targetCountCoin = 5;
+    public static byte currentCointCount;
+    [SerializeField]
+    private TextMeshProUGUI cointText;
 
     void Start()
     {
@@ -71,6 +76,8 @@ public class GameManager : MonoBehaviour
         {
             thirdPersonController = playerObj.GetComponent<ThirdPersonController>();
         }
+
+        cointText.text = "0/" + targetCountCoin.ToString();
     }
 
     // Metodo chiamato da un'entità quando viene raccolta
@@ -189,7 +196,7 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Bonus velocità applicato: " + bonusSpeed);
             }
         }
-      
+
     }
 
     // Distrugge tutte le entità residue presenti in scena (sia virtù che vizi)
@@ -209,7 +216,18 @@ public class GameManager : MonoBehaviour
             Destroy(v);
         }
     }
+    public void UpdateCoinCount()
+    {
+        currentCointCount++;
+        cointText.text = currentCointCount.ToString() + "/" + targetCountCoin.ToString();
+        CheckCoinCount();
+        Debug.Log(currentCointCount);
+    }
 
+    private void CheckCoinCount()
+    {
+        if (currentCointCount == targetCountCoin) cointText.text = "All Coin Collected!";
+    }
 }
 
 
