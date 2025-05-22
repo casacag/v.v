@@ -1,0 +1,12 @@
+# Blender 4.4.0 MTL File: 'Assets.blend'
+# www.blender.org
+
+newmtl LowPolymaterial
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/danim/Desktop/Alessio/dau5nxv-b7db8174-dd35-49be-b0b2-a8b5641a6c80.png
